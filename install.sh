@@ -63,9 +63,9 @@ fc-cache -vf
 rm ./FiraCode.zip ./Meslo.zip
 
 # Install Nordzy cursor
-git clone https://github.com/alvatip/Nordzy-cursors
-cd Nordzy-cursors
-./install.sh
-cd $builddir
-rm -rf Nordzy-cursors
+#git clone https://github.com/alvatip/Nordzy-cursors
+#cd Nordzy-cursors
+#./install.sh
+#cd $builddir
+#rm -rf Nordzy-cursors
 
