@@ -3,11 +3,11 @@
 #
 
 # terminal emulator
-super + x
-	kitty 
+super + Return
+	alacritty
 
 # program launcher
-super + r
+super + d
 	rofi -show drun
 
 # make sxhkd reload its configuration files:
@@ -15,8 +15,8 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 # My program Hotkeys
-super + b
-	brave-browser-stable
+super + w
+	firefox
 
 super + p 
 	flameshot full -p /media/drive/Screenshots
@@ -48,7 +48,7 @@ super + y
 super + g
 	bspc node -s biggest.window
 
-super + e
+super + shift + e
 	thunar
 #
 # state/flags
