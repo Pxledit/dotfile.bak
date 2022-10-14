@@ -69,7 +69,7 @@ bspc rule -a Discord desktop='^6'
 bspc rule -a synergy desktop='^9'
 
 #Auto-Start
-xrander -s 1920x1080 &
+xrandr -s 1920x1080 &
 urxvtc &
 lxpolkit &
 picom --config "$HOME/.config/bspwm/picom.conf" &
