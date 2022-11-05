@@ -6,16 +6,10 @@ if [[ $EUID -ne 0 ]]; then
   exit 1
 fi
 
-# Change Debian to SID Branch
-#cp /etc/apt/sources.list /etc/apt/sources.list.bak
-#cp sources.list /etc/apt/sources.list
 
 username=$(id -u -n 1000)
 builddir=$(pwd)
 
-# Update packages list and update system
-#apt update
-#apt upgrade -y
 
 # Making .config and Moving config files and background to Pictures
 cd $builddir
@@ -35,13 +29,11 @@ chown -R $username:$username /home/$username
 # Installing sugar-candy dependencies
 pacman -S libqt5svg5 qml-module-qtquick-controls qml-module-qtquick-controls2 -y
 # Installing Essential Programs 
-pacman -S rofi polybar picom thunar nitrogen unzip yad wget pulseaudio pavucontrol
+pacman -S bspwm rofi polybar picom thunar nitrogen unzip yad wget pulseaudio pavucontrol polkit-gnome
 # Installing Other less important Programs
 pacman -S neofetch flameshot psmisc vim papirus-icon-theme
 
-# Add Custom Sddm Deb Package
-#dpkg -i 'deb-packages/sddm_0.19.0-4_amd64.deb'
-#apt install -f -y
+
 
 # Download Nordic Theme
 cd /usr/share/themes/
