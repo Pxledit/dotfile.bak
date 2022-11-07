@@ -117,7 +117,7 @@ unsetopt SHARE_HISTORY
 
 export HISTCONTROL=ignoreboth:erasedups
 
-# Make nano the default editor
+# Make nvim the default editor
 
 export EDITOR='nvim'
 export VISUAL='mvim'
