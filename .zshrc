@@ -119,8 +119,8 @@ export HISTCONTROL=ignoreboth:erasedups
 
 # Make nano the default editor
 
-export EDITOR='nano'
-export VISUAL='nano'
+export EDITOR='nvim'
+export VISUAL='mvim'
 
 #PS1='[\u@\h \W]\$ '
 
@@ -133,7 +133,9 @@ if [ -d "$HOME/.local/bin" ] ;
 fi
 
 ### ALIASES ###
-
+alias n='nvim'
+alias in='sudo pacman -S'
+alias un='sudo pacman -Rns'
 #list
 alias ls='ls --color=auto'
 alias la='ls -a'
