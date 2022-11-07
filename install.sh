@@ -19,6 +19,7 @@ mkdir -p /home/$username/Pictures
 #mkdir -p /usr/share/sddm/themes
 cp .Xresources /home/$username
 cp .Xnord /home/$username
+cp .zshrc /home/$username
 cp -R dotconfig/* /home/$username/.config/
 cp bg.jpg /home/$username/Pictures/
 mv user-dirs.dirs /home/$username/.config
@@ -31,7 +32,7 @@ pacman -S libqt5svg5 qml-module-qtquick-controls qml-module-qtquick-controls2 -y
 # Installing Essential Programs 
 pacman -S bspwm sxhkd rofi polybar picom thunar nitrogen unzip wget pulseaudio pavucontrol polkit-gnome alacritty sddm linux linux-headers
 # Installing Other less important Programs
-pacman -S neofetch flameshot psmisc vim papirus-icon-theme
+pacman -S neofetch flameshot psmisc vim papirus-icon-theme mpv thunar thunar thunar-archive-plugin zsh zsh-syntax-highlighting
 
 
 
