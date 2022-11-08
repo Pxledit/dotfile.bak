@@ -1,11 +1,11 @@
-## setup
+#### setup
 ```
 git clone https://github.com/komi7/dotfile.git
 cd dotfile
 sudo ./install.sh
 ```
 
-## (extra)
+#### (extra)
 ```
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -16,14 +16,14 @@ and install
 ```
 yay oh-my-zsh-git  
  ```
-## active display manager
+#### active display manager
 ```
 sudo systemctl enable sddm
 ```
 
 
 
-## package use
+#### package use
 - [bspwm](https://wiki.archlinux.org/title/Bspwm#readme)
 - [Sxhkd](https://wiki.archlinux.org/title/Sxhkd#readme)
 - [Rofi](https://wiki.archlinux.org/title/Rofi#readme)
@@ -43,7 +43,7 @@ sudo systemctl enable sddm
 - [zsh](https://wiki.archlinux.org/title/zsh#readme)
 - [pacman-contrib](https://gitlab.archlinux.org/pacman/pacman-contrib#readme)
 
-## Contribute
+#### Contribute
 
 Contributions are always welcome!
 Please read the [contribution guidelines](contributing.md) first.
