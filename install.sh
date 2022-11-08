@@ -42,7 +42,6 @@ git clone https://github.com/EliverLara/Nordic.git
 
 # Installing fonts
 cd $builddir
-#apt install fonts-font-awesome
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
 unzip FiraCode.zip -d /home/$username/.fonts
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip
@@ -55,10 +54,4 @@ fc-cache -vf
 # Removing zip Files
 rm ./FiraCode.zip ./Meslo.zip
 
-# Install Nordzy cursor
-#git clone https://github.com/alvatip/Nordzy-cursors
-#cd Nordzy-cursors
-#./install.sh
-#cd $builddir
-#rm -rf Nordzy-cursors
 
