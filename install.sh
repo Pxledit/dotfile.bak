@@ -32,7 +32,7 @@ pacman -S libqt5svg5 qml-module-qtquick-controls qml-module-qtquick-controls2 -y
 # Installing Essential Programs 
 pacman -S bspwm sxhkd rofi polybar picom thunar nitrogen unzip wget pulseaudio pavucontrol polkit-gnome alacritty sddm linux linux-headers neovim
 # Installing Other less important Programs
-pacman -S neofetch flameshot psmisc papirus-icon-theme mpv thunar-archive-plugin zsh zsh-syntax-highlighting pacman-contrib
+pacman -S neofetch flameshot psmisc papirus-icon-theme mpv thunar-archive-plugin zsh zsh-syntax-highlighting pacman-contrib feh
 
 
 
