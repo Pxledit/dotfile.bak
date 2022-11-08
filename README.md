@@ -14,9 +14,9 @@ makepkg -si
 and install
 
 ```
- oh-my-zsh-git  
+yay oh-my-zsh-git  
  ```
- # active display manager
- ```
- sudo systemctl enable sddm
- ```
+# active display manager
+```
+sudo systemctl enable sddm
+```
