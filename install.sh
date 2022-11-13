@@ -19,7 +19,8 @@ mkdir -p /home/$username/Pictures
 #mkdir -p /usr/share/sddm/themes
 cp .Xresources /home/$username
 cp .Xnord /home/$username
-#cp .zshrc /home/$username
+cp .zshrc /home/$username
+cp .zshrc.bak /home/$username
 cp -R dotconfig/* /home/$username/.config/
 cp bg.jpg /home/$username/Pictures/
 mv user-dirs.dirs /home/$username/.config
