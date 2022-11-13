@@ -36,7 +36,6 @@ sudo systemctl enable sddm
 - [pavucontrol](https://freedesktop.org/software/pulseaudio/pavucontrol/#readme)
 - [alacritty](https://wiki.archlinux.org/title/alacritty#readme)
 - [sddm](https://wiki.archlinux.org/title/sddm#readme)
-- [neovim](https://wiki.archlinux.org/title/neovim#readme)
 - [neofetch](https://github.com/dylanaraps/neofetch#readme)
 - [flameshot](https://wiki.archlinux.org/title/flameshot#readme)
 - [mpv](https://wiki.archlinux.org/title/mpv#readme)
