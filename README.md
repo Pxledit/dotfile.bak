@@ -11,11 +11,7 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 ```
-and install
 
-```
-yay oh-my-zsh-git  
- ```
 #### active display manager
 ```
 sudo systemctl enable sddm
