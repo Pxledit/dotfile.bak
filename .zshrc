@@ -119,8 +119,8 @@ export HISTCONTROL=ignoreboth:erasedups
 
 # Make nvim the default editor
 
-export EDITOR='nvim'
-export VISUAL='mvim'
+export EDITOR='vim'
+export VISUAL='vim'
 
 #PS1='[\u@\h \W]\$ '
 
@@ -133,7 +133,7 @@ if [ -d "$HOME/.local/bin" ] ;
 fi
 
 ### ALIASES ###
-alias n='nvim'
+alias vi='vim'
 alias in='sudo pacman -S'
 alias un='sudo pacman -Rns'
 #list
